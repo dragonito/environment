@@ -10,10 +10,11 @@ endif
 "*****************************************************************************
 "" Color and theme defaults
 "*****************************************************************************
-set t_Co=256
 syntax enable
+set t_Co=256
 
 colorscheme solarized8_dark
+
 if v:version < 740
     colorscheme Tomorrow-Night
 endif
