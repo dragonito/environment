@@ -6,5 +6,6 @@
 * start vim
 
 ## Keybindings
+leader is mapped to ","
 * leader+r = NERDTreeToggle
 * leader+t = NERDTreeFind
