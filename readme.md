@@ -1,6 +1,10 @@
 # Vim Configuration
 
-## Keybindings
+## Install
+* checkout in homedir
+* ln -s environment/vimrc .vimrc
+* start vim
 
-* <leader>r = NERDTreeToggle
-* <leader>t = NERDTreeFind
+## Keybindings
+* leader+r = NERDTreeToggle
+* leader+t = NERDTreeFind
