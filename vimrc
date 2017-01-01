@@ -23,9 +23,10 @@ call plug#begin(expand('~/.vim/bundle/plugged'))
 
 Plug 'flazz/vim-colorschemes'
 Plug 'tpope/vim-sensible'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'mhinz/vim-signify'
+
+Plug 'ctrlpvim/ctrlp.vim'
 
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -51,9 +52,13 @@ set mouse=a
 set encoding=utf-8
 set modeline
 set ls=2
+set tabstop=4 shiftwidth=4 expandtab
 set t_Co=256
+syntax enable
 colorscheme Tomorrow-Night
 set background=dark
+set number
+set cursorline
 
 "*****************************************************************************
 "" Airline
