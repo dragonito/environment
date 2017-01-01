@@ -6,13 +6,13 @@ endif
 "*****************************************************************************
 "" Loading configs
 "*****************************************************************************
-source ~/vim/config/plugins.vim
-source ~/vim/config/airline.vim
-source ~/vim/config/nerdtree.vim
-source ~/vim/config/colortheme.vim
-source ~/vim/config/php.vim
-source ~/vim/config/defaults.vim
-source ~/vim/config/keymaps.vim
+source ~/environment/config/plugins.vim
+source ~/environment/config/airline.vim
+source ~/environment/config/nerdtree.vim
+source ~/environment/config/colortheme.vim
+source ~/environment/config/php.vim
+source ~/environment/config/defaults.vim
+source ~/environment/config/keymaps.vim
 
 "*****************************************************************************
 "" Call vimrc.local if exists
