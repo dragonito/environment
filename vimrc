@@ -59,6 +59,12 @@ colorscheme Tomorrow-Night
 set background=dark
 set number
 set cursorline
+set autoindent
+
+"*****************************************************************************
+"" PHP Stuff
+"*****************************************************************************
+autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 
 "*****************************************************************************
 "" Airline
