@@ -47,6 +47,7 @@ endif
 "*****************************************************************************
 let mapleader      = ","
 let maplocalleader = ","
+set mouse=a
 set encoding=utf-8
 set modeline
 set ls=2
