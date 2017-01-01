@@ -12,5 +12,10 @@ endif
 "*****************************************************************************
 set t_Co=256
 syntax enable
+
 colorscheme solarized8_dark
+if v:version < 741799
+    colorscheme solarized
+endif
+
 set background=dark
