@@ -15,7 +15,7 @@ syntax enable
 
 colorscheme solarized8_dark
 if v:version < 740
-    colorscheme solarized
+    colorscheme ir_black
 endif
 
 set background=dark
