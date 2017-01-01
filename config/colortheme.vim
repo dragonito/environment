@@ -15,7 +15,7 @@ syntax enable
 
 colorscheme solarized8_dark
 if v:version < 740
-    colorscheme ir_black
+    colorscheme Tomorrow-Night
 endif
 
 set background=dark
