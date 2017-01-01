@@ -14,8 +14,8 @@ set t_Co=256
 syntax enable
 
 colorscheme solarized8_dark
-if v:version < 741799
-    colorscheme solarized
+if v:version < 740
+    colorscheme ir_black
 endif
 
 set background=dark
