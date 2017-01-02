@@ -9,3 +9,6 @@ let g:airline#extensions#branch#enabled = 1
 let g:Powerline_symbols='fancy'
 let g:airline_powerline_fonts = 1
 let g:airline_theme='solarized'
+if v:version < 740
+    let g:airline_theme='tomorrow'
+endif

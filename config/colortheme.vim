@@ -13,10 +13,11 @@ endif
 syntax enable
 set t_Co=256
 
+set background=dark
+
 colorscheme solarized8_dark
 
 if v:version < 740
     colorscheme Tomorrow-Night
 endif
 
-set background=dark
