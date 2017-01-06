@@ -21,3 +21,10 @@ if v:version < 740
     colorscheme Tomorrow-Night
 endif
 
+
+"*****************************************************************************
+"" Gui Configs
+"*****************************************************************************
+if has('gui_running')
+  set guifont=FuraCode_Nerd_Font:h12
+endif
