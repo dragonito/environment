@@ -15,7 +15,7 @@ set t_Co=256
 
 set background=dark
 
-colorscheme solarized8_dark
+colorscheme Tomorrow-Night 
 
 if v:version < 740
     colorscheme Tomorrow-Night
