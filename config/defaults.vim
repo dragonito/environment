@@ -10,3 +10,10 @@ set number
 set cursorline
 set autoindent
 set nowrap
+
+
+"*****************************************************************************
+" Keymapping
+"*****************************************************************************
+nnoremap <Space> za
+vnoremap <Space> za
