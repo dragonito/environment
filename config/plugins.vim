@@ -21,6 +21,7 @@ Plug 'flazz/vim-colorschemes'
 Plug 'lifepillar/vim-solarized8'
 Plug 'tpope/vim-sensible'
 Plug 'scrooloose/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
 Plug 'mhinz/vim-signify'
 
 Plug 'ctrlpvim/ctrlp.vim'
