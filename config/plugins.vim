@@ -23,6 +23,7 @@ Plug 'tpope/vim-sensible'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'mhinz/vim-signify'
+Plug 'Yggdroot/indentLine'
 
 Plug 'ctrlpvim/ctrlp.vim'
 

@@ -28,3 +28,14 @@ endif
 if has('gui_running')
   set guifont=FuraCode_Nerd_Font:h12
 endif
+
+
+"*****************************************************************************
+"" Intendline 
+"*****************************************************************************
+
+let g:indentLine_enabled = 0
+let g:indentLine_char = '|'
+let g:indentLine_setColors = 232 
+let g:indentLine_leadingSpaceEnabled = 0
+let g:indentLine_leadingSpaceChar = '.'
