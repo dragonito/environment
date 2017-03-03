@@ -10,6 +10,7 @@ set number
 set cursorline
 set autoindent
 set nowrap
+set t_ut=
 
 
 "*****************************************************************************
