@@ -2,6 +2,9 @@
 
 ## Changes
 
+### 03.03.2017
+* Resolved tmux color problems
+
 ### 23.02.2017
 * Adding NerdTreeTab Plugin to leave it open when openining tabs
 
