@@ -4,6 +4,7 @@
 
 ### 05.03.2017
 * Added tmux config from https://github.com/egel/tmux-gruvbox
+* Changed dateformat in tmux config to german style
 
 ### 03.03.2017
 * Resolved tmux color problems
