@@ -18,7 +18,7 @@ set background=dark
 colorscheme gruvbox
 
 if v:version < 740
-    colorscheme Tomorrow-Night
+    colorscheme gruvbox 
 endif
 
 
@@ -26,5 +26,5 @@ endif
 "" Gui Configs
 "*****************************************************************************
 if has('gui_running')
-  set guifont=FuraCode_Nerd_Font:h12
+  set guifont=FuraCode_Nerd_Font:h10
 endif

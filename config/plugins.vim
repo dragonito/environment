@@ -17,8 +17,6 @@ endif
 "*****************************************************************************
 call plug#begin(expand('~/.vim/bundle/plugged'))
 
-Plug 'flazz/vim-colorschemes'
-Plug 'lifepillar/vim-solarized8'
 Plug 'tpope/vim-sensible'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
@@ -29,5 +27,6 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'powerline/fonts'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
