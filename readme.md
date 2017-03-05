@@ -5,6 +5,7 @@
 ### 05.03.2017
 * Added tmux config from https://github.com/egel/tmux-gruvbox
 * Changed dateformat in tmux config to german style
+* Removed old themes and added original gruvbox theme (PlugClean needed)
 
 ### 03.03.2017
 * Resolved tmux color problems
