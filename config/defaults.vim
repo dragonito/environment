@@ -7,11 +7,9 @@ set modeline
 set ls=2
 set tabstop=4 shiftwidth=4 expandtab
 set number
-set cursorline
 set autoindent
 set nowrap
 set t_ut=
-
 
 "*****************************************************************************
 " Keymapping

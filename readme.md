@@ -2,6 +2,12 @@
 
 ## Changes
 
+### 06.03.2017
+* Added ftplug dir
+* moved javascript.vim and php.vim to ftplug dir
+* added ctrlp.vim config from (tolry)[https://github.com/tolry/vim] (thx a lot)
+* Cursorline disabled (i will try this in future http://eduncan911.com/software/fix-slow-scrolling-in-vim-and-neovim.html)
+
 ### 05.03.2017
 * Added tmux config from https://github.com/egel/tmux-gruvbox
 * Changed dateformat in tmux config to german style
@@ -19,6 +25,7 @@
 
 * checkout in homedir
 * ln -s environment/vimrc .vimrc
+* ln -s environment/config/ftplugin/ .vim/ftplugin/
 * start vim
 
 ### tmux

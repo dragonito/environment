@@ -10,9 +10,8 @@ source ~/environment/config/plugins.vim
 source ~/environment/config/airline.vim
 source ~/environment/config/nerdtree.vim
 source ~/environment/config/colortheme.vim
-source ~/environment/config/php.vim
-source ~/environment/config/javascript.vim
 source ~/environment/config/defaults.vim
+source ~/environment/config/ctrlp.vim
 source ~/environment/config/keymaps.vim
 
 "*****************************************************************************
