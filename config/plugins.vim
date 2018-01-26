@@ -28,5 +28,6 @@ Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'powerline/fonts'
 Plug 'morhetz/gruvbox'
+Plug 'rakr/vim-one'
 
 call plug#end()
