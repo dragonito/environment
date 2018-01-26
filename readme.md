@@ -2,6 +2,10 @@
 
 ## Changes
 
+### 26.01.2018
+* Added True Color Support for Tmux & Vim
+* Fixing cache dir for ctrlP
+
 ### 06.03.2017
 * Added ftplug dir
 * moved javascript.vim and php.vim to ftplug dir
