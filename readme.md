@@ -2,6 +2,9 @@
 
 ## Changes
 
+### 04.01.2018
+* Added .profile for mac-bash
+
 ### 26.01.2018
 * Added True Color Support for Tmux & Vim
 * Fixing cache dir for ctrlP
