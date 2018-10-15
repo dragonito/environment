@@ -2,6 +2,9 @@
 
 ## Changes
 
+###
+* Added rename support to tmux
+
 ### 04.01.2018
 * Added .profile for mac-bash
 
