@@ -42,9 +42,14 @@
 * ln -s environment/config/ftplugin/ .vim/ftplugin/
 * start vim
 
-### tmux
+### Tmux
 * in homedir
 * ln -s  environment/tmux/tmux-gruvbox-dark.conf .tmux.conf
+
+### Terminal
+* in homedir
+* ln -s environment/.zshrc 
+* ln -s environment/.profile .
 
 ## Keybindings
 leader is mapped to ","
