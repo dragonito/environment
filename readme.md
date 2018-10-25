@@ -2,6 +2,9 @@
 
 ## Changes
 
+### 25.10.2018
+* Added global .gitignore
+
 ### 15.10.2018
 * Added rename support to tmux
 
