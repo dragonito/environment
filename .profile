@@ -16,6 +16,7 @@ alias gx='gitx --all'
 
 alias got='git '
 alias get='git '
+alias delete-merged-branchnes='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 export NVM_DIR="$HOME/.nvm"
