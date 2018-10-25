@@ -4,6 +4,7 @@
 
 ### 25.10.2018
 * Added global .gitignore
+* Added Mac configs
 
 ### 15.10.2018
 * Added rename support to tmux
