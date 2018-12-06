@@ -39,6 +39,7 @@
 
 * checkout in homedir
 * ln -s environment/vimrc .vimrc
+* mkdir -p .vim/ftplugin
 * ln -s environment/config/ftplugin/ .vim/ftplugin/
 * start vim
 
