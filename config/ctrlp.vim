@@ -28,6 +28,8 @@ let g:ctrlp_extensions = ['tag']
 nnoremap <leader>f :CtrlP<CR>
 nnoremap <leader>ft :CtrlPTag<CR>
 
+let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
+
 "*****************************************************************************
 " search in CtrlP for selected text
 " or current word under cursor

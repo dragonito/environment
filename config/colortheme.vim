@@ -15,7 +15,7 @@ set t_Co=256
 
 set background=dark
 
-colorscheme gruvbox
+colorscheme one
 
 if v:version < 740
     colorscheme gruvbox 

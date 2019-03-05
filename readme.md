@@ -1,6 +1,20 @@
-# Vim Configuration
+# Enviroment
 
 ## Changes
+
+### 25.10.2018
+* Added global .gitignore
+* Added Mac configs
+
+### 15.10.2018
+* Added rename support to tmux
+
+### 04.10.2018
+* Added .profile for mac-bash
+
+### 26.01.2018
+* Added True Color Support for Tmux & Vim
+* Fixing cache dir for ctrlP
 
 ### 06.03.2017
 * Added ftplug dir
@@ -25,12 +39,18 @@
 
 * checkout in homedir
 * ln -s environment/vimrc .vimrc
+* mkdir -p .vim/ftplugin
 * ln -s environment/config/ftplugin/ .vim/ftplugin/
 * start vim
 
-### tmux
+### Tmux
 * in homedir
 * ln -s  environment/tmux/tmux-gruvbox-dark.conf .tmux.conf
+
+### Terminal
+* in homedir
+* ln -s environment/.zshrc 
+* ln -s environment/.profile .
 
 ## Keybindings
 leader is mapped to ","
