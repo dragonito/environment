@@ -11,15 +11,12 @@ endif
 "" Color and theme defaults
 "*****************************************************************************
 syntax enable
-set t_Co=256
+"set t_Co=256
 
 set background=dark
 
-colorscheme one
-
-if v:version < 740
-    colorscheme gruvbox 
-endif
+let g:gruvbox_italic=1
+colorscheme gruvbox
 
 
 "*****************************************************************************
