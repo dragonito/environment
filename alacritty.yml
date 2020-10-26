@@ -1,0 +1,13 @@
+# Font configuration
+font:
+  # Normal (roman) font face
+  normal:
+    family: MesloLGS NF 
+  bold:
+    family: MesloLGS NF 
+  italic:
+    family: MesloLGS NF 
+  bold_italic:
+    family: MesloLGS NF 
+  size: 16.0
+background_opacity: 0.90
