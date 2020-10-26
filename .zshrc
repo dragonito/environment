@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block, everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -8,7 +15,7 @@ export ZSH="/Users/rwillig/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -96,22 +103,26 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-ssh-add -K ~/.ssh/id_rsa
-case $- in
-    *i*)
-    if command -v tmux>/dev/null; then
-        if [[ ! $TERM =~ screen ]] && [[ -z $TMUX ]]; then
-          if tmux ls 2> /dev/null | grep -q -v attached; then
-            exec tmux attach -t $(tmux ls 2> /dev/null | grep -v attached | head -1 | cut -d : -f 1)
-          else
-            exec tmux
-          fi
-        fi
-    fi
-    ;;
-esac
+#source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
+[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
+export PHPBREW_SET_PROMPT=1
+export PHPBREW_RC_ENABLE=1
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+export PATH="$(yarn global bin):$PATH"
+
+alias delete-merged-branches='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
+alias git-cleanup-local='~/environment/scripts/git-cleanup-local'
+alias home='cd ~'
+alias ls='colorls'
+alias ll='colorls -lha'
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

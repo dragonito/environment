@@ -30,5 +30,6 @@ Plug 'powerline/fonts'
 Plug 'morhetz/gruvbox'
 Plug 'lumiliet/vim-twig'
 Plug 'rakr/vim-one'
+Plug 'tmux-plugins/vim-tmux'
 
 call plug#end()

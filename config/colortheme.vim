@@ -15,9 +15,7 @@ syntax enable
 
 set background=dark
 
-let g:gruvbox_italic=1
-colorscheme gruvbox
-
+colorscheme one-dark 
 
 "*****************************************************************************
 "" Gui Configs
