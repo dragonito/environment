@@ -9,5 +9,15 @@ font:
     family: MesloLGS NF 
   bold_italic:
     family: MesloLGS NF 
-  size: 16.0
+  size: 12.0
 background_opacity: 0.90
+
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux attach || tmux"
+
+key_bindings:      
+    - { key: F11, action: ToggleFullscreen }
