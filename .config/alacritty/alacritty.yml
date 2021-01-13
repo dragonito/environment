@@ -1,3 +1,4 @@
+
 # Font configuration
 font:
   # Normal (roman) font face
@@ -14,10 +15,6 @@ background_opacity: 0.90
 
 shell:
   program: /bin/zsh
-  args:
-    - -l
-    - -c
-    - "tmux attach || tmux"
 
 key_bindings:      
     - { key: F11, action: ToggleFullscreen }
