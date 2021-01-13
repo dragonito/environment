@@ -1,6 +1,15 @@
 # Enviroment
 
+## Todos
+* Config for x-server background images
+* Cleanup old vim config (using space-vim)
+
 ## Changes
+
+### 13.01.2021
+* Added config for i3wm
+* Added config for i3-statusbar
+* Moved alacritty.yml to .config dir
 
 ### 25.10.2018
 * Added global .gitignore
