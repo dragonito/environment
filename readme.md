@@ -6,6 +6,9 @@
 
 ## Changes
 
+### 27.07.2021
+* Added global gitconfig
+
 ### 13.01.2021
 * Added config for i3wm
 * Added config for i3-statusbar
