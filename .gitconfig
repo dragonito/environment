@@ -1,0 +1,12 @@
+[user]
+        name = Robin Willig
+        email = robin@rwillig.de
+[alias]
+        co = checkout
+        br = branch
+        ci = commit
+        st = status
+[push]
+        default = current
+[pull]
+        default = current
