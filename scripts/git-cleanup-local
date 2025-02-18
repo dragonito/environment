@@ -3,4 +3,4 @@
 git checkout main
 git fetch
 git remote prune origin
-git branch --merged master | grep -v 'master$' | xargs git branch -d
+git branch --merged main | grep -v 'main$' | xargs git branch -d
